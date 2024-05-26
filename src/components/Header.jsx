@@ -9,12 +9,13 @@ const Container = styled.div`
 `;
 
 const MainDiv = styled.div`
-  width: 75rem;
+  max-width: 75rem;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 `;
 
 const H3 = styled.h3`

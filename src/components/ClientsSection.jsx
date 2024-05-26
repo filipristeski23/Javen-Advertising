@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Client from "../materials/readingbook.avif";
 import NewClient from "../materials/pngegg (2).png";
 
 const ClientsMainSection = styled.div`

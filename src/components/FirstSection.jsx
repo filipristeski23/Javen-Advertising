@@ -8,7 +8,6 @@ const MainSection = styled.div`
 `;
 
 const MainSectionContainer = styled.div`
-  width: 100%;
   display: flex;
   flex-direction: row;
   max-width: 75rem;
