@@ -2,6 +2,7 @@ import GlobalStyles from "./styles/GlobalStyles";
 import OtherServicesSection from "./components/OtherServicesSection";
 import InformationalSection from "./components/InformationalSection";
 import QuoteSection from "./components/QuoteSection";
+import PicturesSection from "./components/PicturesSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <OtherServicesSection />
       <InformationalSection />
       <QuoteSection />
+      <PicturesSection />
     </div>
   );
 }
