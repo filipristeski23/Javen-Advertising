@@ -4,6 +4,7 @@ import InformationalSection from "./components/InformationalSection";
 import QuoteSection from "./components/QuoteSection";
 import PicturesSection from "./components/PicturesSection";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <QuoteSection />
       <PicturesSection />
       <ContactForm />
+      <Footer />
     </div>
   );
 }

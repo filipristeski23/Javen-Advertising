@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styled from "styled-components";
 
 const ContactFormSection = styled.div`
@@ -54,6 +55,7 @@ const Button = styled.button`
   color: white;
   border: none;
   cursor: pointer;
+  font-weight: 500;
 `;
 
 const RightSide = styled.div`
@@ -83,6 +85,16 @@ const Input = styled.input`
 `;
 
 function ContactForm() {
+  const [email, setEmail] = useState("");
+
+  const handleInputChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <ContactFormSection>
       <ContactFormSectionContainer>
@@ -94,8 +106,13 @@ function ContactForm() {
             tempora quaerat minima ex totam, culpa voluptas numquam maiores
             ratione quidem. Excepturi, autem.
           </H4>
-          <Form>
-            <Input type="text" placeholder="filipristeski30@gmail.com"></Input>
+          <Form onSubmit={handleSubmit}>
+            <Input
+              type="email"
+              placeholder="filipristeski30@gmail.com"
+              value={email}
+              onChange={handleInputChange}
+            ></Input>
             <Button type="submit">Submit</Button>
           </Form>
         </LeftSide>
