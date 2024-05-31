@@ -5,17 +5,13 @@ import QuoteSection from "./components/QuoteSection";
 import PicturesSection from "./components/PicturesSection";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
+import MainSection from "./components/AboutUsTopSection";
 
 function App() {
   return (
     <div>
       <GlobalStyles />
-      <OtherServicesSection />
-      <InformationalSection />
-      <QuoteSection />
-      <PicturesSection />
-      <ContactForm />
-      <Footer />
+      <MainSection />
     </div>
   );
 }
