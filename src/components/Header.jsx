@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Facebook from "../materials/icons8-facebook (14).svg";
 import Instagram from "../materials/icons8-instagram (16).svg";
 import Youtube from "../materials/icons8-youtube (3).svg";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   width: 100%;
@@ -35,7 +36,7 @@ const Ulist = styled.ul`
   padding: 0;
 `;
 
-const A = styled.a`
+const StyledLink = styled(Link)`
   text-decoration: none;
   color: black;
   font-weight: 500;
@@ -80,16 +81,16 @@ function Header() {
         <div>
           <Ulist>
             <li>
-              <A href="aboutpage">ABOUT</A>
+              <StyledLink to="AboutUsPage">ABOUT US</StyledLink>
             </li>
             <li>
-              <A href="servicespage">SERVICES</A>
+              <StyledLink to="Services">SERVICES</StyledLink>
             </li>
             <li>
-              <A href="coursepage">COURSE</A>
+              <StyledLink to="Course">COURSE</StyledLink>
             </li>
             <li>
-              <A href="blogpage">BLOG</A>
+              <StyledLink to="Blog">BLOG</StyledLink>
             </li>
           </Ulist>
         </div>
