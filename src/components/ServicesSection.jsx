@@ -1,9 +1,12 @@
 import styled from "styled-components";
 import readingbook from "../materials/readingbook.avif";
+import Decoration from "../materials/Group3.svg";
 
 const ServicesMainSection = styled.div`
   width: 100%;
   padding: 4.688rem 0px;
+  position: relative;
+  background-color: #faf7f2;
 `;
 
 const ServicesSectionContainer = styled.div`
@@ -23,6 +26,7 @@ const ImgBackground = styled.div`
   align-items: center;
   background-size: cover;
   background-position: center;
+  z-index: 2;
 `;
 
 const Services = styled.div`
@@ -41,6 +45,7 @@ const A = styled.a`
   text-decoration: none;
   margin-top: 3.125rem;
   font-weight: 500;
+  z-index: 2;
 `;
 
 const H2 = styled.h2`
@@ -48,11 +53,19 @@ const H2 = styled.h2`
   font-weight: 500;
   font-size: 2.188rem;
   margin: 0;
+  z-index: 2;
+`;
+
+const Img3 = styled.img`
+  left: 0;
+  position: absolute;
+  z-index: 0;
 `;
 
 function ServicesSection() {
   return (
     <ServicesMainSection>
+      <Img3 src={Decoration} alt="Decoration" />
       <ServicesSectionContainer>
         <H2>
           Let me help you <br /> skyrocket your social media presence

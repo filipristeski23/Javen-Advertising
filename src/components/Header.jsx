@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 const Container = styled.div`
   width: 100%;
   padding: 1.563rem 0rem;
+  z-index: 1;
 `;
 
 const MainDiv = styled.div`
@@ -17,12 +18,14 @@ const MainDiv = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  z-index: 2;
 `;
 
 const H3 = styled.h3`
   font-size: 1.875rem;
   font-weight: 700;
   margin: 0;
+  z-index: 4;
 `;
 
 const Ulist = styled.ul`
@@ -34,18 +37,21 @@ const Ulist = styled.ul`
   gap: 2rem;
   margin: 0;
   padding: 0;
+  z-index: 4;
 `;
 
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: black;
   font-weight: 500;
+  z-index: 4;
 `;
 
 const ContactDiv = styled.div`
   display: flex;
   flex-direction: row;
   gap: 1.25rem;
+  z-index: 4;
 `;
 
 const ContactButton = styled.a`
@@ -53,10 +59,12 @@ const ContactButton = styled.a`
   padding: 0.625rem 1.25rem;
   text-decoration: none;
   color: white;
+  z-index: 4;
 `;
 
 const Img = styled.img`
   width: 1.563rem;
+  z-index: 4;
 `;
 
 const SocialMedia = styled.div`
@@ -64,6 +72,7 @@ const SocialMedia = styled.div`
   flex-direction: row;
   gap: 0.625rem;
   align-items: center;
+  z-index: 4;
 `;
 
 const SocialMediaA = styled.a`
@@ -71,6 +80,11 @@ const SocialMediaA = styled.a`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 4;
+`;
+
+const Li = styled.li`
+  z-index: 4;
 `;
 
 function Header() {
@@ -80,18 +94,18 @@ function Header() {
         <H3>SOCIAL ME</H3>
         <div>
           <Ulist>
-            <li>
+            <Li>
               <StyledLink to="AboutUsPage">ABOUT US</StyledLink>
-            </li>
-            <li>
+            </Li>
+            <Li>
               <StyledLink to="Services">SERVICES</StyledLink>
-            </li>
-            <li>
+            </Li>
+            <Li>
               <StyledLink to="Course">COURSE</StyledLink>
-            </li>
-            <li>
+            </Li>
+            <Li>
               <StyledLink to="Blog">BLOG</StyledLink>
-            </li>
+            </Li>
           </Ulist>
         </div>
         <ContactDiv>

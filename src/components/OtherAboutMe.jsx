@@ -1,9 +1,14 @@
 import styled from "styled-components";
 import AbbieImage from "../materials/readingbook.avif";
+import OtherAboutMeMainSectionBackgroundImage from "../materials/Desktop4.svg";
+import testing from "../materials/testing.svg";
+import NewImage from "../materials/Group10.svg";
 
 const OtherAboutMeMainSection = styled.div`
   width: 100%;
   padding: 4.688rem 0px;
+  position: relative;
+  background-color: #faf7f2;
 `;
 
 const OtherAboutMeMainSectionContainer = styled.div`
@@ -17,6 +22,7 @@ const LeftSide = styled.div`
   flex: 1;
   display: grid;
   justify-content: center;
+  position: relative;
 `;
 
 const RightSide = styled.div`
@@ -26,6 +32,7 @@ const RightSide = styled.div`
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  position: relative;
 `;
 
 const Img = styled.img`
@@ -33,6 +40,9 @@ const Img = styled.img`
   height: 28.125rem;
   border-radius: 48% 48% 0rem 0rem;
   object-fit: cover;
+  border: 0.625rem solid #faded1;
+  position: relative;
+  z-index: 1;
 `;
 
 const H3 = styled.h3`
@@ -60,12 +70,29 @@ const A = styled.a`
   margin-top: 1.25rem;
 `;
 
+const Img2 = styled.img`
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 0;
+`;
+
+const Img3 = styled.img`
+  bottom: 0;
+  right: 0;
+  margin-right: 3.125rem;
+  position: absolute;
+  z-index: 0;
+`;
+
 function OtherAboutMe() {
   return (
     <OtherAboutMeMainSection>
       <OtherAboutMeMainSectionContainer>
+        <Img3 src={NewImage} alt="testing" />
         <LeftSide>
           <Img src={AbbieImage} alt="Abbie Image" />
+          <Img2 src={testing} alt="testing" />
         </LeftSide>
         <RightSide>
           <H3>I'm Abbie, the founder of Social ME</H3>
