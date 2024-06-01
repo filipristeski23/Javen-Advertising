@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import AbbieImage from "../materials/readingbook.avif";
-import OtherAboutMeMainSectionBackgroundImage from "../materials/Desktop4.svg";
 import testing from "../materials/testing.svg";
 import NewImage from "../materials/Group10.svg";
 

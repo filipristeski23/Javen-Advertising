@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import Reading from "../materials/readingbook.avif";
+import Rectangle from "../materials/Rectangle.svg";
+import Rectangle4 from "../materials/Rectangle4.svg";
 
 const AboutUsTopSectionMain = styled.div`
   width: 100%;
@@ -11,6 +13,8 @@ const AboutUsTopSectionMain = styled.div`
   justify-content: center;
   gap: 4.688rem;
   padding-bottom: 4.688rem;
+  background-color: #ebe7dc;
+  position: relative;
 `;
 
 const TopDiv = styled.div`
@@ -20,6 +24,7 @@ const TopDiv = styled.div`
   flex-direction: row;
   justify-content: space-between;
   gap: 3.125rem;
+  background: linear-gradient(to bottom, white 50%, #ebe7dc 50%);
 `;
 
 const BottomDiv = styled.div`
@@ -28,6 +33,7 @@ const BottomDiv = styled.div`
   align-items: center;
   justify-content: center;
   gap: 1.563rem;
+  z-index: 3;
 `;
 
 const H3 = styled.h3`
@@ -98,9 +104,26 @@ const RightAbsoluteImg = styled.img`
   top: 20%;
 `;
 
+const Img3 = styled.img`
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 3rem;
+  z-index: 2;
+`;
+
+const Img4 = styled.img`
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+`;
+
 function AboutUsTopSection() {
   return (
     <AboutUsTopSectionMain>
+      <Img3 src={Rectangle} alt="Decoration" />
+      <Img4 src={Rectangle4} alt="Decoration" />
       <TopDiv>
         <Div>
           <Img src={Reading} alt="" />

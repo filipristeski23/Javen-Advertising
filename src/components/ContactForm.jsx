@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const ContactFormSection = styled.div`
   width: 100%;
@@ -73,15 +74,15 @@ const Div = styled.div`
   align-items: center;
 `;
 
-const A = styled.a`
-  color: black;
-  font-size: 1.563rem;
-`;
-
 const Input = styled.input`
   height: 1.563rem;
   padding: 0.625rem 1.25rem 0.625rem 1.25rem;
   width: 40%;
+`;
+
+const StyledLink = styled(Link)`
+  color: black;
+  font-size: 1.563rem;
 `;
 
 function ContactForm() {
@@ -118,14 +119,14 @@ function ContactForm() {
         </LeftSide>
         <RightSide>
           <Div>
-            <A href="">Home</A>
-            <A href="">About</A>
-            <A href="">Services</A>
+            <StyledLink to="/">Home</StyledLink>
+            <StyledLink to="/AboutUsPage">About</StyledLink>
+            <StyledLink to="/">Services</StyledLink>
           </Div>
           <Div>
-            <A href="">Contact</A>
-            <A href="">Blog</A>
-            <A href="">Privacy Policy</A>
+            <StyledLink to="/">Contact</StyledLink>
+            <StyledLink to="/">Contact</StyledLink>
+            <StyledLink to="/">Blog</StyledLink>
           </Div>
         </RightSide>
       </ContactFormSectionContainer>
