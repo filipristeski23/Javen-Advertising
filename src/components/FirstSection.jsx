@@ -94,14 +94,13 @@ function FirstSection() {
       <Header />
       <MainSectionContainer>
         <LeftSide>
-          <H3>I'm here to shine up your social media</H3>
+          <H3>Изградба на Светла Иднина во Битола</H3>
           <H4>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-            maiores eligendi tempore voluptatem! Officiis illum ducimus sapiente
-            quae optio, soluta, quaerat aliquid cum commodi praesentium earum
-            dolor, inventore enim? Facilis?
+            Добредојдовте во срцето на женското претприемништво во Битола. Ние
+            сме посветени на создавање, поддршка и промовирање на динамична
+            заедница на женски претприемачи.
           </H4>
-          <A href="www.gooogle.com">WHEN DO WE START?</A>
+          <A href="www.gooogle.com">Контактирај не</A>
         </LeftSide>
         <RightSide>
           <Img src={Reading} alt="Reading Book" />

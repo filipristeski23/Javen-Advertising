@@ -122,7 +122,7 @@ function Header() {
               <Img src={Facebook} alt="facebook" />
             </SocialMediaA>
           </SocialMedia>
-          <ContactButton href="www.google.com">CONTACT</ContactButton>
+          <ContactButton href="www.google.com">Контактирај не</ContactButton>
         </ContactDiv>
       </MainDiv>
     </Container>

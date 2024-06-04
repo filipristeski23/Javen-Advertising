@@ -44,12 +44,12 @@ function AboutMe() {
     <SecondSection>
       <SecondSectionContainer>
         <Img3 src={Decoration2} alt="Decoration" />
-        <H2>MY MISSION</H2>
+        <H2>Нашата Приказна Ваша Инспирација</H2>
         <H4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-          adipisci quas consequuntur perspiciatis corrupti quae, consectetur
-          voluptatibus reiciendis, illo officiis alias consequatur? Quidem ipsa
-          consectetur cum dolorum cumque natus explicabo?
+          Во срцето на Битола, нашата приказна започнува во Декември 2023 година
+          со една искра - вербата во неограничениот потенцијал на жените во
+          бизнисот. Па основавме женска заедница со цел да се воведе нова ера на
+          иновација и лидерство од страна на жените во бизнисот.
         </H4>
       </SecondSectionContainer>
     </SecondSection>
