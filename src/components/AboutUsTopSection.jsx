@@ -24,7 +24,7 @@ const TopDiv = styled.div`
   flex-direction: row;
   justify-content: space-between;
   gap: 3.125rem;
-  background: linear-gradient(to bottom, white 50%, #ebe7dc 50%);
+  background: linear-gradient(to bottom, #faf7f2 50%, #ebe7dc 50%);
 `;
 
 const BottomDiv = styled.div`

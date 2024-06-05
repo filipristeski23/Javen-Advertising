@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const ContactFormSection = styled.div`
   width: 100%;
   padding: 4.688rem 0px;
+  background-color: #faf7f2;
 `;
 
 const ContactFormSectionContainer = styled.div`

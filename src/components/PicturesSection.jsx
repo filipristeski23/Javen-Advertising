@@ -8,6 +8,7 @@ const PicturesMainSection = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 4.688rem;
+  background-color: #faf7f2;
 `;
 
 const Pictures = styled.div`

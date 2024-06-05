@@ -46,6 +46,7 @@ const A = styled.a`
   margin-top: 3.125rem;
   font-weight: 500;
   z-index: 2;
+  text-align: center;
 `;
 
 const H2 = styled.h2`
@@ -67,18 +68,22 @@ function ServicesSection() {
     <ServicesMainSection>
       <Img3 src={Decoration} alt="Decoration" />
       <ServicesSectionContainer>
-        <H2>
-          Let me help you <br /> skyrocket your social media presence
-        </H2>
+        <H2>Нашите Главни Цели</H2>
         <Services>
           <ImgBackground>
-            <A href="">SOME MANAGEMENT</A>
+            <A href="">
+              Подигање на свеста за <br /> значењето на женското претприемништво
+            </A>
           </ImgBackground>
           <ImgBackground>
-            <A href="">FACEBOOK ADS</A>
+            <A href="">
+              Намалување на невработеноста <br /> кај жените
+            </A>
           </ImgBackground>
           <ImgBackground>
-            <A href="">COURSES</A>
+            <A href="">
+              Зајакнување на соработката и <br /> мрежите за поддршка
+            </A>
           </ImgBackground>
         </Services>
       </ServicesSectionContainer>

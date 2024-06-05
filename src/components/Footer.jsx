@@ -4,6 +4,7 @@ import Facebook from "../materials/icons8-facebook (14).svg";
 
 const FooterSection = styled.div`
   width: 100%;
+  background-color: #faf7f2;
 `;
 
 const FooterSectionContainer = styled.div`

@@ -4,6 +4,7 @@ import Reading from "../materials/readingbook.avif";
 const InformationalMainSection = styled.div`
   width: 100%;
   padding: 4.688rem 0px;
+  background-color: #faf7f2;
 `;
 
 const InformationalMainSectionContainer = styled.div`
