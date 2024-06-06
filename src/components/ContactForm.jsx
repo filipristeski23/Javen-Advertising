@@ -101,12 +101,10 @@ function ContactForm() {
     <ContactFormSection>
       <ContactFormSectionContainer>
         <LeftSide>
-          <H3>Subscribe</H3>
+          <H3>Пратплати се</H3>
           <H4>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
-            sapiente quos exercitationem tempore laudantium corrupti facere vero
-            tempora quaerat minima ex totam, culpa voluptas numquam maiores
-            ratione quidem. Excepturi, autem.
+            Внеси го твојот е - маил во формата подолу и добивај најнови
+            известувања.
           </H4>
           <Form onSubmit={handleSubmit}>
             <Input
@@ -115,19 +113,15 @@ function ContactForm() {
               value={email}
               onChange={handleInputChange}
             ></Input>
-            <Button type="submit">Submit</Button>
+            <Button type="submit">Испрати</Button>
           </Form>
         </LeftSide>
         <RightSide>
           <Div>
-            <StyledLink to="/">Home</StyledLink>
-            <StyledLink to="/AboutUsPage">About</StyledLink>
-            <StyledLink to="/">Services</StyledLink>
-          </Div>
-          <Div>
-            <StyledLink to="/">Contact</StyledLink>
-            <StyledLink to="/">Contact</StyledLink>
-            <StyledLink to="/">Blog</StyledLink>
+            <StyledLink to="/">Дома</StyledLink>
+            <StyledLink to="/AboutUsPage">За Нас</StyledLink>
+            <StyledLink to="/">Услуги</StyledLink>
+            <StyledLink to="/">Контакт</StyledLink>
           </Div>
         </RightSide>
       </ContactFormSectionContainer>

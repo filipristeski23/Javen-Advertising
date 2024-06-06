@@ -95,16 +95,13 @@ function Header() {
         <div>
           <Ulist>
             <Li>
-              <StyledLink to="AboutUsPage">ABOUT US</StyledLink>
+              <StyledLink to="/">Дома</StyledLink>
             </Li>
             <Li>
-              <StyledLink to="Services">SERVICES</StyledLink>
+              <StyledLink to="/AboutUsPage">За Нас</StyledLink>
             </Li>
             <Li>
-              <StyledLink to="Course">COURSE</StyledLink>
-            </Li>
-            <Li>
-              <StyledLink to="Blog">BLOG</StyledLink>
+              <StyledLink to="/Services">Услуги</StyledLink>
             </Li>
           </Ulist>
         </div>
