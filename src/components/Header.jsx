@@ -98,10 +98,7 @@ function Header() {
               <StyledLink to="/">Дома</StyledLink>
             </Li>
             <Li>
-              <StyledLink to="/AboutUsPage">За Нас</StyledLink>
-            </Li>
-            <Li>
-              <StyledLink to="/Services">Услуги</StyledLink>
+              <StyledLink to="/AboutUsPage">Повеќе За Нас</StyledLink>
             </Li>
           </Ulist>
         </div>

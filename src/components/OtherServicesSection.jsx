@@ -31,6 +31,7 @@ const H3 = styled.h3`
   font-weight: 500;
   font-size: 1.563rem;
   margin: 0;
+  text-align: center;
 `;
 
 const H4 = styled.h4`
@@ -64,36 +65,36 @@ function OtherServicesSection() {
       <OtherServicesSectionContainer>
         <ImgDiv>
           <Img src={Reading}></Img>
-          <H3>Portrait</H3>
+          <H3>Поддршка и Советување за Жени Претприемачи</H3>
           <H4>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
-            nulla sunt odio pariatur ipsam animi nam laborum dolorum fuga, natus
-            soluta eos inventore! Autem vero repellat beatae. Non, eligendi
-            cupiditate?
+            Ние нудиме индивидуално советување и менторски програми за жените
+            претприемачи кои сакаат да ги подобрат своите вештини и да ги
+            зголемат своите шанси за успех, нашата цел е да помогнеме на секоја
+            жена да ја постигне целта.
           </H4>
-          <A href="www.google.com">GET STARTED</A>
+          <A href="www.google.com">Започни</A>
         </ImgDiv>
         <ImgDiv>
           <Img src={Reading}></Img>
-          <H3>Commercial</H3>
+          <H3>Обучување и Развој на Потребните Вештини</H3>
           <H4>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
-            nulla sunt odio pariatur ipsam animi nam laborum dolorum fuga, natus
-            soluta eos inventore! Autem vero repellat beatae. Non, eligendi
-            cupiditate?
+            Нашите обуки и работилници се дизајнирани да ги опремат жените
+            претприемачи со потребните знаења и вештини за успешно водење на
+            бизнис. Од финансиско управување до маркетинг стратегии, нашите
+            програми ги покриваат сите аспекти.
           </H4>
-          <A href="www.google.com">GET STARTED</A>
+          <A href="www.google.com">Започни</A>
         </ImgDiv>
         <ImgDiv>
           <Img src={Reading}></Img>
-          <H3>Elegant</H3>
+          <H3>Мрежни Можности и Поддршка во Заедницата</H3>
           <H4>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
-            nulla sunt odio pariatur ipsam animi nam laborum dolorum fuga, natus
-            soluta eos inventore! Autem vero repellat beatae. Non, eligendi
-            cupiditate?
+            Создавање мрежи и поврзување со други успешни жени претприемачи е
+            клучен дел од нашиот пристап. Ние организираме настани и мрежни
+            сесии каде што жените можат да споделуваат искуства, идеи и да
+            создаваат нови можности за соработка.
           </H4>
-          <A href="www.google.com">GET STARTED</A>
+          <A href="www.google.com">Започни</A>
         </ImgDiv>
       </OtherServicesSectionContainer>
     </OtherServicesMainSection>

@@ -47,7 +47,7 @@ const Line = styled.div`
 function PicturesSection() {
   return (
     <PicturesMainSection>
-      <H3>SOME TEXT I CAN'T READ</H3>
+      <H3>НЕ ЧЕКАЈ, ИДНИНАТА ЗАВИСИ ОД ТЕБЕ</H3>
       <Pictures>
         <Img></Img>
         <Img></Img>

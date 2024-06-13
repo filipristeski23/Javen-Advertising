@@ -49,14 +49,14 @@ function ClientsSection() {
   return (
     <ClientsMainSection>
       <ClientsSectionContainer>
-        <H2>Our wall of fame</H2>
+        <H2>Нашите Подржувачи</H2>
         <Clients>
           <Img src={NewClient} alt="First Client" />
           <Img src={NewClient} alt="Second Client" />
           <Img src={NewClient} alt="Third Client" />
           <Img src={NewClient} alt="Fourth Client" />
         </Clients>
-        <A href="">WHAT ARE YOU WAITING FOR ?</A>
+        <A href="">ЗАПОЧНИ СЕГА</A>
       </ClientsSectionContainer>
     </ClientsMainSection>
   );

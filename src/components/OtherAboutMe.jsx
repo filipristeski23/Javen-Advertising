@@ -28,7 +28,6 @@ const RightSide = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   gap: 1rem;
   position: relative;
@@ -94,17 +93,16 @@ function OtherAboutMe() {
           <Img2 src={testing} alt="testing" />
         </LeftSide>
         <RightSide>
-          <H3>I'm Abbie, the founder of Social ME</H3>
+          <H3>Како настанавме ?</H3>
           <H4>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-            maiores eligendi tempore voluptatem! Officiis illum ducimus sapiente
-            quae optio, soluta, quaerat aliquid cum commodi praesentium earum
-            dolor, inventore enim? Facilis? Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Maxime quisquam fugit cum quam harum
-            aliquid accusantium molestias sit debitis velit, commodi laboriosam
-            magni ullam praesentium vero saepe iure. Id, saepe.
+            Програмата за работа на Советот за женско претприемништво Битола
+            предвидува изработка на акции, насоки и проекти на локално ниво.
+            Креативните и деловни потенцијали кои во себе ги крие женското
+            претприемништво во Битола сè уште не се целосно искористени. Оваа
+            тема е релативно нова во Битола и носи бројни предизвици, но исто
+            така и можности за жените и самото општество.
           </H4>
-          <A href="www.gooogle.com">WHAT ARE YOU WAITING FOR ?</A>
+          <A href="www.gooogle.com">Што Чекаш ?</A>
         </RightSide>
       </OtherAboutMeMainSectionContainer>
     </OtherAboutMeMainSection>

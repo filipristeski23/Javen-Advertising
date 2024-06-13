@@ -119,8 +119,7 @@ function ContactForm() {
         <RightSide>
           <Div>
             <StyledLink to="/">Дома</StyledLink>
-            <StyledLink to="/AboutUsPage">За Нас</StyledLink>
-            <StyledLink to="/">Услуги</StyledLink>
+            <StyledLink to="/AboutUsPage">Повеќе За Нас</StyledLink>
             <StyledLink to="/">Контакт</StyledLink>
           </Div>
         </RightSide>

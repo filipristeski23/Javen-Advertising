@@ -136,12 +136,15 @@ function AboutUsTopSection() {
         </RightDiv>
       </TopDiv>
       <BottomDiv>
-        <H4>SOME TEXT</H4>
-        <H3>A SIMPLE PHRASE ABOUT YOUR BUSINESS WORKING HOURS</H3>
+        <H4>напредок</H4>
+        <H3>Поттикнување на Жените Претприемачи</H3>
         <H4>
           {" "}
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
-          eveniet deserunt architecto.
+          Нашата цел е поттикнување на растот и успехот на жените претприемачи
+          во Битола. Преку комбинација на менторски програми, професионално
+          советување и работилници за развој на вештини, ние обезбедуваме
+          поддршка и ресурси потребни за жените да напредуваат во своите
+          претприемнички потфати
         </H4>
       </BottomDiv>
     </AboutUsTopSectionMain>

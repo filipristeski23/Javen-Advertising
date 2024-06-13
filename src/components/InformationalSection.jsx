@@ -108,15 +108,15 @@ function InformationalSection() {
       <InformationalMainSectionContainer>
         <TopDiv>
           <TopLeftPart>
-            <H4>TEXT</H4>
-            <H2>Main Headline For Your About Section</H2>
+            <H4>ИНФО</H4>
+            <H2>Зошто е важно да се поттикнува женското претприемништво?</H2>
             <H4>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              cupiditate necessitatibus doloribus voluptate rerum tenetur
-              distinctio in. Impedit repellendus eos omnis sit deleniti animi
-              natus provident. Amet dicta minus sit. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Maiores alias odio molestias!
-              Quibusdam facilis eligendi unde.
+              Поттикнувањето на женското претприемништво води кон поголема
+              родова рамноправност и социо-економска инклузија. Жените кои се
+              самовработени и водат сопствен бизнис, стекнуваат финансиска
+              независност и јакнат на личен и професионален план. На тој начин,
+              се зголемува нивното влијание во креирањето одлуки од јавен
+              интерес.
             </H4>
           </TopLeftPart>
           <TopRightPart>
@@ -130,14 +130,13 @@ function InformationalSection() {
           </BottomDivLeftPart>
           <BottomDivRightPart>
             <H4>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Distinctio, laboriosam sapiente corrupti dicta repudiandae
-              repellat. Animi unde asperiores corrupti tempore illo corporis
-              voluptas ad? Non rem quo eligendi ratione. Eveniet! Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Facilis sed, corrupti
-              accusantium porro ea mollitia eius.
+              Бизнисите водени од жени, исто така, помагаат во создавањето нови
+              работни места и генерирање приходи за локалната заедница.
+              Истражувањата покажуваат дека жените претприемачи се повеќе склони
+              да ги реинвестираат своите профити во семејството и заедницата,
+              што го забрзува севкупниот општествен напредок
             </H4>
-            <A href="www.google.com">CONTACT US NOW</A>
+            <A href="www.google.com">ЗАПОЧНИ СЕГА</A>
           </BottomDivRightPart>
         </BottomDiv>
       </InformationalMainSectionContainer>
